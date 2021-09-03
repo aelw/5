@@ -53,10 +53,9 @@ $(window).on('keydown', function(e) {
 })
 
 var Fake = [
-  '안녕하세요 지민입니다.<br>Hi there, I\'m Jimin and you?',
-  'Nice to meet you',
+  'Hi! It\'s great to see you!',
   'How are you?',
-  'Not too bad, thanks',
+  'I\'m glad you\'re satisfied.',
   'What do you do?',
   'That\'s awesome',
   'I think you\'re a nice person',
