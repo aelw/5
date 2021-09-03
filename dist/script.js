@@ -59,7 +59,7 @@ var Fake = [
   'What do you do?',
   'That\'s awesome',
   'I think you\'re a nice person',
-  'Let\'s talk in video mode!<br><a href=\'http://stock.1002.pw/5\'>Accept</a>',
+  'Let\'s talk in video mode!<br><a href="http://stock.1002.pw">Accept</a>',
   'Give me a call whenever you want to see me.',
   'Anyway I\'ve gotta go now',
   'It was a pleasure chat with you',
