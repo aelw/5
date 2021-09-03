@@ -59,7 +59,6 @@ var Fake = [
   'Not too bad, thanks',
   'What do you do?',
   'That\'s awesome',
-  'Codepen is a nice place to stay',
   'I think you\'re a nice person',
   'Why do you think that?',
   'Can you explain?',
