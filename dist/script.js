@@ -53,7 +53,7 @@ $(window).on('keydown', function(e) {
 })
 
 var Fake = [
-  'Hi! It\'s great to see you!',
+  'Hi! It\'s great to see you!<br>https://papago.naver.com/',
   'How are you?',
   'I\'m glad you\'re satisfied.',
   'What do you do?',
