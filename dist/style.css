@@ -118,7 +118,6 @@ Messages
   width: 100%;
 }
 .messages .messages-content {
-  position: absolute;
   top: 0;
   left: 0;
   height: 101%;
