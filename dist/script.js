@@ -53,14 +53,14 @@ $(window).on('keydown', function(e) {
 })
 
 var Fake = [
-  'Hi! It\'s great to see you!<br>https://papago.naver.com/',
+  'Hi! It\'s great to see you!',
   'How are you?',
-  'I\'m glad you\'re satisfied.',
+  'I\'m glad you\'re satisfied',
   'What do you do?',
   'That\'s awesome',
   'I think you\'re a nice person',
-  'Why do you think that?',
-  'Can you explain?',
+  'Let\'s talk in video mode!<br><a href=''>Call</a>',
+  'Give me a call whenever you want to see me.',
   'Anyway I\'ve gotta go now',
   'It was a pleasure chat with you',
   'Bye',
