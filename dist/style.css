@@ -10,7 +10,7 @@ Body
   box-sizing: border-box;
 }
 
-textarea {font-size:13px}
+textarea {font-size:13px !important}
 
 html,
 body {
