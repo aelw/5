@@ -53,7 +53,7 @@ $(window).on('keydown', function(e) {
 })
 
 var Fake = [
-  'Hi there, I\'m Jimin and you?',
+  '안녕하세요 지민입니다.<br>Hi there, I\'m Jimin and you?',
   'Nice to meet you',
   'How are you?',
   'Not too bad, thanks',
@@ -64,7 +64,6 @@ var Fake = [
   'Can you explain?',
   'Anyway I\'ve gotta go now',
   'It was a pleasure chat with you',
-  'Time to make a new codepen',
   'Bye',
   ':)'
 ]
