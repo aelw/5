@@ -33,7 +33,7 @@ body {
   top: 0;
   left: 0;
   z-index: 1;
-  background:#eee;
+  background:#fafafa;
   filter: blur(80px);
   transform: scale(1.2);
   background: #fff;
