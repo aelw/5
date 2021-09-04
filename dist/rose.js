@@ -72,12 +72,12 @@ function fakeMessage() {
   if ($('.message-input').val() != '') {
     return false;
   }
-  $('<div class="message loading new"><figure class="avatar"><img src="https://pbs.twimg.com/profile_images/1376040795602448391/0anoXlJt_400x400.jpg" /></figure><span></span></div>').appendTo($('.mCSB_container'));
+  $('<div class="message loading new"><figure class="avatar"><img src="https://pbs.twimg.com/profile_images/1312709671715663872/bGHL1ybr.jpg" /></figure><span></span></div>').appendTo($('.mCSB_container'));
   updateScrollbar();
 
   setTimeout(function() {
     $('.message.loading').remove();
-    $('<div class="message new"><figure class="avatar"><img src="https://pbs.twimg.com/profile_images/1376040795602448391/0anoXlJt_400x400.jpg" /></figure>' + Fake[i] + '</div>').appendTo($('.mCSB_container')).addClass('new');
+    $('<div class="message new"><figure class="avatar"><img src="https://pbs.twimg.com/profile_images/1312709671715663872/bGHL1ybr.jpg" /></figure>' + Fake[i] + '</div>').appendTo($('.mCSB_container')).addClass('new');
     setDate();
     updateScrollbar();
     i++;
