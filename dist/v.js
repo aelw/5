@@ -63,7 +63,8 @@ var Fake = [
   'Can you explain?',
   'Anyway I\'ve gotta go now',
   'It was a pleasure chat with you',
-  'Bye',
+  'Call me when you think of me',
+  'See you',
   ':)'
 ]
 
