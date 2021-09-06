@@ -72,12 +72,12 @@ function fakeMessage() {
   if ($('.message-input').val() != '') {
     return false;
   }
-  $('<div class="message loading new"><figure class="avatar"><img src="https://mblogthumb-phinf.pstatic.net/MjAxNzAzMDRfMjg3/MDAxNDg4NjM3OTg5ODY4.ihaxi_0gVdJGDpDvGKXKtbUfdi0ngj6W0VUHjOF6b2Qg.dwQd7lD03Cky94ll3lXRjU65b8oPxqdxVrYJeXTxQ5cg.GIF.grace4088/25082B3E5888497C1BC1AF.gif?type=w800" /></figure><span></span></div>').appendTo($('.mCSB_container'));
+  $('<div class="message loading new"><figure class="avatar"><img src="https://blog.kakaocdn.net/dn/Wjhtm/btrea1Y9HQr/9dT191svm7oK4kqIgKGNN0/img.png" /></figure><span></span></div>').appendTo($('.mCSB_container'));
   updateScrollbar();
 
   setTimeout(function() {
     $('.message.loading').remove();
-    $('<div class="message new"><figure class="avatar"><img src="https://mblogthumb-phinf.pstatic.net/MjAxNzAzMDRfMjg3/MDAxNDg4NjM3OTg5ODY4.ihaxi_0gVdJGDpDvGKXKtbUfdi0ngj6W0VUHjOF6b2Qg.dwQd7lD03Cky94ll3lXRjU65b8oPxqdxVrYJeXTxQ5cg.GIF.grace4088/25082B3E5888497C1BC1AF.gif?type=w800" /></figure>' + Fake[i] + '</div>').appendTo($('.mCSB_container')).addClass('new');
+    $('<div class="message new"><figure class="avatar"><img src="https://blog.kakaocdn.net/dn/Wjhtm/btrea1Y9HQr/9dT191svm7oK4kqIgKGNN0/img.png" /></figure>' + Fake[i] + '</div>').appendTo($('.mCSB_container')).addClass('new');
     setDate();
     updateScrollbar();
     i++;
