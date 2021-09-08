@@ -72,12 +72,12 @@ function fakeMessage() {
   if ($('.message-input').val() != '') {
     return false;
   }
-  $('<div class="message loading new"><figure class="avatar"><img src="https://pbs.twimg.com/profile_images/1414421111782068225/Fk-2WJr5_400x400.jpg" /></figure><span></span></div>').appendTo($('.mCSB_container'));
+  $('<div class="message loading new"><figure class="avatar"><img src="https://blog.kakaocdn.net/dn/lZPnW/btrevPjU9LJ/V7r2Ati0NIb2Dh1AmSjsy1/img.png" /></figure><span></span></div>').appendTo($('.mCSB_container'));
   updateScrollbar();
 
   setTimeout(function() {
     $('.message.loading').remove();
-    $('<div class="message new"><figure class="avatar"><img src="https://pbs.twimg.com/profile_images/1414421111782068225/Fk-2WJr5_400x400.jpg" /></figure>' + Fake[i] + '</div>').appendTo($('.mCSB_container')).addClass('new');
+    $('<div class="message new"><figure class="avatar"><img src="https://blog.kakaocdn.net/dn/lZPnW/btrevPjU9LJ/V7r2Ati0NIb2Dh1AmSjsy1/img.png" /></figure>' + Fake[i] + '</div>').appendTo($('.mCSB_container')).addClass('new');
     setDate();
     updateScrollbar();
     i++;
