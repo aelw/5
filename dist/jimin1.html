@@ -2,7 +2,7 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>Jimin</title>
+  <title>Chat</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.3/jquery.mCustomScrollbar.min.css'><link rel="stylesheet" href="./style.css">
@@ -18,6 +18,7 @@
     return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
 }
 var id = getParameterByName('img');
+var name = getParameterByName('name');
 </script>
 
 <section class="avenue-messenger">
@@ -34,7 +35,11 @@ var id = getParameterByName('img');
   </div>
 <div class="chat">
   <div class="chat-title">
-    <h1>Jimin</h1>
+	  
+<script>
+document.write("<h1>"+name+"</h1>");
+</script>	  
+	  
     <h2><a href='http://stock.1002.pw/5' style='text-decoration:none;color:#777'>Call</a> / <a href='http://1002.pw/jimin' style='text-decoration:none;color:#777'>wallpaper</a></h2>
   <figure class="avatar" style='color:#fafafa'>
 
