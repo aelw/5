@@ -72,12 +72,12 @@ function fakeMessage() {
   if ($('.message-input').val() != '') {
     return false;
   }
-  $('<div class="message loading new"><figure class="avatar"><img src="https://img1.daumcdn.net/thumb/R80x0/?scode=mtistory2&fname=https://blog.kakaocdn.net/dn/2qf9O/btrfa2Q7Jps/KdPCTMpNklIm7dnxQp4ER1/img.png" /></figure><span></span></div>').appendTo($('.mCSB_container'));
+  $('<div class="message loading new"><figure class="avatar"><img src="https://i.imgur.com/F8n1BUw.png" /></figure><span></span></div>').appendTo($('.mCSB_container'));
   updateScrollbar();
 
   setTimeout(function() {
     $('.message.loading').remove();
-    $('<div class="message new"><figure class="avatar"><img src="https://img1.daumcdn.net/thumb/R80x0/?scode=mtistory2&fname=https://blog.kakaocdn.net/dn/2qf9O/btrfa2Q7Jps/KdPCTMpNklIm7dnxQp4ER1/img.png" /></figure>' + Fake[i] + '</div>').appendTo($('.mCSB_container')).addClass('new');
+    $('<div class="message new"><figure class="avatar"><img src="https://i.imgur.com/F8n1BUw.png" /></figure>' + Fake[i] + '</div>').appendTo($('.mCSB_container')).addClass('new');
     setDate();
     updateScrollbar();
     i++;
